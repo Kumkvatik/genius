@@ -4,35 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня </title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body> 
     <header>
          <nav>
-   <a href="#">
+   <a href="./index2.html">
     <img src="./Images/logo.svg" alt="Логотип shop bakery">
    </a>
-    <ul>
-        <li><a href="#">Франшиза</a></li>
-    <li><a href="#">Наші традиціх</a></li>
-    <li><a href="#">Формати</a></li>
-    <li><a href="#">Контакти</a></li></ul>
+    <ul >
+        <li><a clas="header-link" href="#traditions-section">Наші традиції</a></li>
+    <li><a clas="header-link" href="#chief-section">Шеф-кухарі</a></li>
+    <li><a clas="header-link" href="#formats-section">Формати</a></li>
+    <li><a clas="header-link" href="#contact-sectionclas=">Контакти</a></li></ul>
 </nav>
-<button type="submit">Замовити дзвінок</button>
+<button class="button"  type="submit">Замовити дзвінок</button>
 </header> 
 
 <main>
-<section> <h1> Сучасна пекарня</h1></section>
-<section> <ul>
+<section>
+     <h1 class="hero-title"> <span>Сучасна</span>пекарня</h1></section>
+<section id="traditions-section"> <ul class="advantages-list">
     <li>Великий попит на ринку</li>
     <li>Доступні за бюджетом формати</li>
     <li>Досвідчена управлінська команда</li>
-</ul><h2>  Новий формат традицій</h2><p>
+</ul><h2 class="section-title">  Новий формат традицій</h2><p>
     <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та натуральність інгредієнтів.</p>
     <p><span>Ми працюємо як найвідоміші мережі — 5 хвилин і замовлення готове</span>. А ще у наших пекарень стильний дизайн та висока
     якість обслуговування!</p>
     <img src="./Images/baker-man.jpg" alt="Фото пекаря з хлібом">
-</section> 
-<section><h2>Наші найкращі шеф -кухарі</h2>
+</section > 
+<section id="chief-section"><h2 class="section-title">Наші найкращі шеф-кухарі</h2>
     <ul>
         <li><article>
             <h3>Настя</h3>
@@ -56,7 +58,7 @@
 
 
 </section>
-<section><h2>Формати</h2> 
+<section id="formats-section"><h2 class="section-title">Формати</h2> 
 <ul><li>
     <article>
         <h3 lang="en">Walrus</h3>
@@ -73,17 +75,23 @@
     </article>
 </li></ul>
 </section>
-<section><h2>Приєднуйся до мережі пекарень</h2></section>
+<section id="contact-section"><h2 class="section-title">Приєднуйся до мережі пекарень</h2>
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d379.6491190558643!2d28.635487640175377!3d50.95073818204081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472bdba6d1d57a0b%3A0x260f438d75e41117!2z0JzQktCGINCQ0YLQu9Cw0YEg0KPQutGA0LDRl9C90LAgKNC-0YTRltGBKQ!5e1!3m2!1sru!2sua!4v1763236100126!5m2!1sru!2sua"
+    width="603" height="595" 
+    style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
 </main>
 <footer>
 <nav>
     <a href="#"></a>
     <img src="./Images/logo.svg" alt="Логотип shop bakery">
     <ul>
-        <li><a href="#">Франшиза</a></li>
-        <li><a href="#">Наші традиціх</a></li>
-        <li><a href="#">Формати</a></li>
-        <li><a href="#">Контакти</a></li>
+        <li><a href="#traditions-section">Наші традиції</a></li>
+        <li><a href="#chief-section">Шеф-кухарі</a></li>
+        <li><a href="#formats-section">Формати</a></li>
+        <li><a href="#contact-section">Контакти</a></li>
     </ul>
 </nav>
 <address><ul>
